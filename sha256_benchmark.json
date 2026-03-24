@@ -1,0 +1,74 @@
+{
+  "benchmark_timestamp": "2026-03-21 22:16:52",
+  "hash_functions": {
+    "sha256": {
+      "name": "SHA-256",
+      "description": "Standard NIST hash function (FIPS 180-4)"
+    },
+    "matrixhash_8r": {
+      "name": "MatriXHash-256 (8 rounds)",
+      "description": "MatriXHash-256 | Rounds: 8 | Matrix: cauchy_mds | S-box: aes | Perm: shiftrows_4x8"
+    }
+  },
+  "benchmark_a_neural_distinguisher": {
+    "SHA-256": {
+      "num_pairs_trained": 30000,
+      "training_time_sec": 33.93013024330139,
+      "best_val_accuracy": 0.5086,
+      "test_accuracy": 0.4934,
+      "true_positive_rate": 0.5372,
+      "false_positive_rate": 0.5504,
+      "mean_prob_real": 0.5241009593009949,
+      "mean_prob_random": 0.5298755764961243
+    },
+    "MatriXHash-256 (8r)": {
+      "num_pairs_trained": 30000,
+      "training_time_sec": 32.5792510509491,
+      "best_val_accuracy": 0.5074,
+      "test_accuracy": 0.5158,
+      "true_positive_rate": 0.4456,
+      "false_positive_rate": 0.414,
+      "mean_prob_real": 0.4928165078163147,
+      "mean_prob_random": 0.4906609356403351
+    }
+  },
+  "benchmark_b_throughput": {
+    "SHA-256": {
+      "num_hashes": 10000,
+      "elapsed_sec": 0.013623952865600586,
+      "hashes_per_sec": 734001.3649965875
+    },
+    "MatriXHash-256 (8r)": {
+      "num_hashes": 10000,
+      "elapsed_sec": 110.58264565467834,
+      "hashes_per_sec": 90.43010266934174
+    },
+    "throughput_ratio_sha256_to_matrixhash": 8116.781285546786
+  },
+  "benchmark_c_avalanche": {
+    "SHA-256": {
+      "num_messages": 1000,
+      "num_flips_per_message": 32,
+      "mean_output_bit_flips": 128.322,
+      "min_output_bit_flips": 104,
+      "max_output_bit_flips": 150,
+      "std_output_bit_flips": 7.68311889794763,
+      "mean_deviation_from_ideal_128": 0.32200000000000273,
+      "max_deviation_from_ideal_128": 24.0
+    },
+    "MatriXHash-256 (8r)": {
+      "num_messages": 1000,
+      "num_flips_per_message": 32,
+      "mean_output_bit_flips": 128.298,
+      "min_output_bit_flips": 101,
+      "max_output_bit_flips": 154,
+      "std_output_bit_flips": 7.923710999273005,
+      "mean_deviation_from_ideal_128": 0.2980000000000018,
+      "max_deviation_from_ideal_128": 27.0
+    }
+  },
+  "summary": {
+    "neural_comparison": "SHA-256: 0.4934 vs MatriXHash: 0.5158",
+    "throughput_ratio": "SHA-256 is 8116.78x faster"
+  }
+}

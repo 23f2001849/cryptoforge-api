@@ -1,0 +1,218 @@
+{
+  "history": {
+    "generations": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "best_fitness": [
+      0.9050956217447917,
+      0.9054150390625002,
+      0.9054964192708335,
+      0.9700374348958335,
+      0.9700374348958335,
+      0.9700374348958335
+    ],
+    "avg_fitness": [
+      0.741951677594866,
+      0.9026223551432293,
+      0.9039010009765626,
+      0.9100353190104167,
+      0.7158542538597471,
+      0.8739925072079615
+    ],
+    "best_genomes": [
+      "sbox=random(seed=13) matrix=random rounds=8 perm=shiftrows_8x4",
+      "sbox=random(seed=9467) matrix=cauchy_mds rounds=9 perm=shiftrows_4x8",
+      "sbox=random(seed=606) matrix=random rounds=6 perm=shiftrows_8x4",
+      "sbox=aes matrix=cauchy_mds rounds=9 perm=shiftrows_4x8",
+      "sbox=aes matrix=cauchy_mds rounds=9 perm=shiftrows_4x8",
+      "sbox=aes matrix=cauchy_mds rounds=9 perm=shiftrows_4x8"
+    ],
+    "best_nonlinearity": [
+      94,
+      94,
+      94,
+      112,
+      112,
+      112
+    ],
+    "best_diff_uniformity": [
+      10,
+      10,
+      10,
+      4,
+      4,
+      4
+    ]
+  },
+  "best_genome": {
+    "sbox_type": "aes",
+    "sbox_param": 13,
+    "matrix_type": "cauchy_mds",
+    "matrix_seed": 3719,
+    "num_rounds": 9,
+    "permutation_type": "shiftrows_4x8",
+    "fitness": 0.9700374348958335,
+    "nonlinearity": 112,
+    "diff_uniformity": 4,
+    "algebraic_degree": 7,
+    "avalanche_quality": 0.9993164062500001
+  },
+  "best_config": {
+    "hash": {
+      "name": "MatriXHash-256",
+      "state_size": 32,
+      "block_size": 64,
+      "digest_size": 32
+    },
+    "round_function": {
+      "num_rounds": 9,
+      "matrix_type": "cauchy_mds",
+      "matrix_seed": 3719,
+      "sbox_type": "aes",
+      "sbox_param": 13,
+      "permutation_type": "shiftrows_4x8"
+    },
+    "cauchy": {
+      "x_start": 1,
+      "y_start": 33
+    }
+  },
+  "final_population": [
+    {
+      "sbox_type": "aes",
+      "sbox_param": 13,
+      "matrix_type": "cauchy_mds",
+      "matrix_seed": 3719,
+      "num_rounds": 9,
+      "permutation_type": "shiftrows_4x8",
+      "fitness": 0.9700374348958335,
+      "nonlinearity": 112,
+      "diff_uniformity": 4,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9993164062500001
+    },
+    {
+      "sbox_type": "aes",
+      "sbox_param": 13,
+      "matrix_type": "cauchy_mds",
+      "matrix_seed": 8529,
+      "num_rounds": 9,
+      "permutation_type": "shiftrows_4x8",
+      "fitness": 0.9700374348958335,
+      "nonlinearity": 112,
+      "diff_uniformity": 4,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9993164062500001
+    },
+    {
+      "sbox_type": "aes",
+      "sbox_param": 13,
+      "matrix_type": "cauchy_mds",
+      "matrix_seed": 8529,
+      "num_rounds": 9,
+      "permutation_type": "shiftrows_4x8",
+      "fitness": 0.9700374348958335,
+      "nonlinearity": 112,
+      "diff_uniformity": 4,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9993164062500001
+    },
+    {
+      "sbox_type": "aes",
+      "sbox_param": 13,
+      "matrix_type": "cauchy_mds",
+      "matrix_seed": 7783,
+      "num_rounds": 9,
+      "permutation_type": "shiftrows_4x8",
+      "fitness": 0.9700374348958335,
+      "nonlinearity": 112,
+      "diff_uniformity": 4,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9993164062500001
+    },
+    {
+      "sbox_type": "aes",
+      "sbox_param": 13,
+      "matrix_type": "cauchy_mds",
+      "matrix_seed": 3719,
+      "num_rounds": 6,
+      "permutation_type": "shiftrows_4x8",
+      "fitness": 0.9696162923177084,
+      "nonlinearity": 112,
+      "diff_uniformity": 4,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9976318359374999
+    },
+    {
+      "sbox_type": "random",
+      "sbox_param": 606,
+      "matrix_type": "random",
+      "matrix_seed": 8666,
+      "num_rounds": 6,
+      "permutation_type": "shiftrows_8x4",
+      "fitness": 0.9054964192708335,
+      "nonlinearity": 94,
+      "diff_uniformity": 10,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9999023437500001
+    },
+    {
+      "sbox_type": "random",
+      "sbox_param": 606,
+      "matrix_type": "random",
+      "matrix_seed": 5031,
+      "num_rounds": 6,
+      "permutation_type": "shiftrows_8x4",
+      "fitness": 0.9051200358072917,
+      "nonlinearity": 94,
+      "diff_uniformity": 10,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9983968098958331
+    },
+    {
+      "sbox_type": "random",
+      "sbox_param": 606,
+      "matrix_type": "cauchy_mds",
+      "matrix_seed": 3719,
+      "num_rounds": 6,
+      "permutation_type": "shiftrows_8x4",
+      "fitness": 0.9049348958333334,
+      "nonlinearity": 94,
+      "diff_uniformity": 10,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9976562499999999
+    },
+    {
+      "sbox_type": "random",
+      "sbox_param": 1990,
+      "matrix_type": "cauchy_mds",
+      "matrix_seed": 6320,
+      "num_rounds": 9,
+      "permutation_type": "shiftrows_4x8",
+      "fitness": 0.9047049967447918,
+      "nonlinearity": 94,
+      "diff_uniformity": 10,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9967366536458335
+    },
+    {
+      "sbox_type": "identity",
+      "sbox_param": 13,
+      "matrix_type": "random",
+      "matrix_seed": 2065,
+      "num_rounds": 9,
+      "permutation_type": "shiftrows_8x4",
+      "fitness": 0.2699026925223214,
+      "nonlinearity": 0,
+      "diff_uniformity": 256,
+      "algebraic_degree": 1,
+      "avalanche_quality": 0.993896484375
+    }
+  ],
+  "total_time": 4581.51736998558
+}

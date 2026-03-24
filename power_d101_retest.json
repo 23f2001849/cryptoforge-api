@@ -1,0 +1,84 @@
+{
+  "config": {
+    "hash": {
+      "name": "MatriXHash-256",
+      "state_size": 32,
+      "block_size": 64,
+      "digest_size": 32
+    },
+    "round_function": {
+      "num_rounds": 8,
+      "matrix_type": "cauchy_mds",
+      "matrix_seed": 42,
+      "sbox_type": "power_map",
+      "sbox_param": 101,
+      "permutation_type": "shiftrows_4x8"
+    },
+    "cauchy": {
+      "x_start": 1,
+      "y_start": 33
+    }
+  },
+  "audit_finding": {
+    "spectral_score": 0.775,
+    "neural_accuracy": 0.5206,
+    "sample_size_original": 30000,
+    "noise_floor": 0.52,
+    "margin_above_noise": 0.0006
+  },
+  "retest_results": {
+    "30000": {
+      "mean_accuracy": 0.49322222222222223,
+      "std_accuracy": 0.012894156011901664,
+      "individual_runs": [
+        0.47833333333333333,
+        0.5006666666666667,
+        0.5006666666666667
+      ],
+      "min_accuracy": 0.47833333333333333,
+      "max_accuracy": 0.5006666666666667,
+      "data_split": {
+        "train": 24000,
+        "val": 3000,
+        "test": 3000
+      },
+      "num_seeds": 3
+    },
+    "100000": {
+      "mean_accuracy": 0.49639999999999995,
+      "std_accuracy": 0.0024979991993593683,
+      "individual_runs": [
+        0.4984,
+        0.4936,
+        0.4972
+      ],
+      "min_accuracy": 0.4936,
+      "max_accuracy": 0.4984,
+      "data_split": {
+        "train": 80000,
+        "val": 10000,
+        "test": 10000
+      },
+      "num_seeds": 3
+    },
+    "300000": {
+      "mean_accuracy": 0.5031888888888889,
+      "std_accuracy": 0.002966729087982494,
+      "individual_runs": [
+        0.4997666666666667,
+        0.5050333333333333,
+        0.5047666666666667
+      ],
+      "min_accuracy": 0.4997666666666667,
+      "max_accuracy": 0.5050333333333333,
+      "data_split": {
+        "train": 240000,
+        "val": 30000,
+        "test": 30000
+      },
+      "num_seeds": 3
+    }
+  },
+  "classification": "CONCORDANT",
+  "explanation": "Both spectral (0.775) and neural scores are in the secure region. The original 30K result appears to be statistical noise. power_d101 can be classified as secure."
+}

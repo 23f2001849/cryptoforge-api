@@ -1,0 +1,1207 @@
+{
+  "per_config": {
+    "identity": {
+      "accuracy": 0.9986,
+      "best_val_accuracy": 0.9998,
+      "training_time": 36.22937297821045,
+      "nonlinearity": 0,
+      "max_walsh": 256,
+      "spectral_flatness": 255.00000000000034,
+      "spectral_entropy": 7.994353436858859,
+      "differential_uniformity": 256,
+      "algebraic_degree": 1,
+      "vector": [
+        0.0,
+        0.0,
+        255.00000000000034,
+        0.49964708980367867,
+        0.0,
+        0.14285714285714285
+      ]
+    },
+    "aes": {
+      "accuracy": 0.4972,
+      "best_val_accuracy": 0.5014,
+      "training_time": 33.789974212646484,
+      "nonlinearity": 112,
+      "max_walsh": 32,
+      "spectral_flatness": 0.5515803635435559,
+      "spectral_entropy": 15.254694737142152,
+      "differential_uniformity": 4,
+      "algebraic_degree": 7,
+      "vector": [
+        0.9333333333333333,
+        0.875,
+        0.5515803635435559,
+        0.9534184210713845,
+        0.984375,
+        1.0
+      ]
+    },
+    "power_d7": {
+      "accuracy": 0.5066,
+      "best_val_accuracy": 0.5062,
+      "training_time": 34.14298343658447,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.3362542129234296,
+      "spectral_entropy": 14.806853436858855,
+      "differential_uniformity": 6,
+      "algebraic_degree": 3,
+      "vector": [
+        0.8,
+        0.75,
+        1.3362542129234296,
+        0.9254283398036784,
+        0.9765625,
+        0.42857142857142855
+      ]
+    },
+    "power_d11": {
+      "accuracy": 0.4936,
+      "best_val_accuracy": 0.5056,
+      "training_time": 36.663838148117065,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2606977810676985,
+      "spectral_entropy": 14.736082733531031,
+      "differential_uniformity": 10,
+      "algebraic_degree": 3,
+      "vector": [
+        0.8,
+        0.75,
+        1.2606977810676985,
+        0.9210051708456894,
+        0.9609375,
+        0.42857142857142855
+      ]
+    },
+    "power_d13": {
+      "accuracy": 0.501,
+      "best_val_accuracy": 0.5006,
+      "training_time": 33.12431311607361,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2606977810676985,
+      "spectral_entropy": 14.736082733531031,
+      "differential_uniformity": 12,
+      "algebraic_degree": 3,
+      "vector": [
+        0.8,
+        0.75,
+        1.2606977810676985,
+        0.9210051708456894,
+        0.953125,
+        0.42857142857142855
+      ]
+    },
+    "power_d19": {
+      "accuracy": 0.5054,
+      "best_val_accuracy": 0.5122,
+      "training_time": 34.30679941177368,
+      "nonlinearity": 104,
+      "max_walsh": 48,
+      "spectral_flatness": 1.181435068916874,
+      "spectral_entropy": 14.852812030203204,
+      "differential_uniformity": 16,
+      "algebraic_degree": 3,
+      "vector": [
+        0.8666666666666667,
+        0.8125,
+        1.181435068916874,
+        0.9283007518877002,
+        0.9375,
+        0.42857142857142855
+      ]
+    },
+    "power_d23": {
+      "accuracy": 0.4996,
+      "best_val_accuracy": 0.506,
+      "training_time": 31.694871187210083,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2171526056391044,
+      "spectral_entropy": 14.869353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 4,
+      "vector": [
+        0.8,
+        0.75,
+        1.2171526056391044,
+        0.9293345898036784,
+        0.9375,
+        0.5714285714285714
+      ]
+    },
+    "power_d29": {
+      "accuracy": 0.4978,
+      "best_val_accuracy": 0.4998,
+      "training_time": 32.06226420402527,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2606977810676985,
+      "spectral_entropy": 14.736082733531031,
+      "differential_uniformity": 10,
+      "algebraic_degree": 4,
+      "vector": [
+        0.8,
+        0.75,
+        1.2606977810676985,
+        0.9210051708456894,
+        0.9609375,
+        0.5714285714285714
+      ]
+    },
+    "power_d31": {
+      "accuracy": 0.499,
+      "best_val_accuracy": 0.5012,
+      "training_time": 35.308722257614136,
+      "nonlinearity": 112,
+      "max_walsh": 32,
+      "spectral_flatness": 1.4975339716144294,
+      "spectral_entropy": 14.744353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 5,
+      "vector": [
+        0.9333333333333333,
+        0.875,
+        1.4975339716144294,
+        0.9215220898036784,
+        0.9375,
+        0.7142857142857143
+      ]
+    },
+    "power_d37": {
+      "accuracy": 0.4974,
+      "best_val_accuracy": 0.509,
+      "training_time": 33.44897508621216,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.3362542129234296,
+      "spectral_entropy": 14.806853436858855,
+      "differential_uniformity": 6,
+      "algebraic_degree": 3,
+      "vector": [
+        0.8,
+        0.75,
+        1.3362542129234296,
+        0.9254283398036784,
+        0.9765625,
+        0.42857142857142855
+      ]
+    },
+    "power_d41": {
+      "accuracy": 0.5006,
+      "best_val_accuracy": 0.504,
+      "training_time": 33.08899116516113,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.3362542129234296,
+      "spectral_entropy": 14.806853436858855,
+      "differential_uniformity": 6,
+      "algebraic_degree": 3,
+      "vector": [
+        0.8,
+        0.75,
+        1.3362542129234296,
+        0.9254283398036784,
+        0.9765625,
+        0.42857142857142855
+      ]
+    },
+    "power_d43": {
+      "accuracy": 0.491,
+      "best_val_accuracy": 0.5124,
+      "training_time": 33.13187599182129,
+      "nonlinearity": 80,
+      "max_walsh": 96,
+      "spectral_flatness": 1.1492932626448522,
+      "spectral_entropy": 14.040312030203204,
+      "differential_uniformity": 30,
+      "algebraic_degree": 4,
+      "vector": [
+        0.6666666666666666,
+        0.625,
+        1.1492932626448522,
+        0.8775195018877002,
+        0.8828125,
+        0.5714285714285714
+      ]
+    },
+    "power_d47": {
+      "accuracy": 0.5084,
+      "best_val_accuracy": 0.5116,
+      "training_time": 32.50558114051819,
+      "nonlinearity": 104,
+      "max_walsh": 48,
+      "spectral_flatness": 1.181435068916874,
+      "spectral_entropy": 14.852812030203204,
+      "differential_uniformity": 16,
+      "algebraic_degree": 5,
+      "vector": [
+        0.8666666666666667,
+        0.8125,
+        1.181435068916874,
+        0.9283007518877002,
+        0.9375,
+        0.7142857142857143
+      ]
+    },
+    "power_d53": {
+      "accuracy": 0.492,
+      "best_val_accuracy": 0.5018,
+      "training_time": 33.48809504508972,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.054081260072014,
+      "spectral_entropy": 14.994353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 4,
+      "vector": [
+        0.8,
+        0.75,
+        1.054081260072014,
+        0.9371470898036784,
+        0.9375,
+        0.5714285714285714
+      ]
+    },
+    "power_d59": {
+      "accuracy": 0.51,
+      "best_val_accuracy": 0.512,
+      "training_time": 32.22801208496094,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2606977810676985,
+      "spectral_entropy": 14.736082733531031,
+      "differential_uniformity": 12,
+      "algebraic_degree": 5,
+      "vector": [
+        0.8,
+        0.75,
+        1.2606977810676985,
+        0.9210051708456894,
+        0.953125,
+        0.7142857142857143
+      ]
+    },
+    "power_d61": {
+      "accuracy": 0.5068,
+      "best_val_accuracy": 0.5016,
+      "training_time": 31.960285186767578,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2171526056391044,
+      "spectral_entropy": 14.869353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 5,
+      "vector": [
+        0.8,
+        0.75,
+        1.2171526056391044,
+        0.9293345898036784,
+        0.9375,
+        0.7142857142857143
+      ]
+    },
+    "power_d67": {
+      "accuracy": 0.4964,
+      "best_val_accuracy": 0.5074,
+      "training_time": 32.467578649520874,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2606977810676985,
+      "spectral_entropy": 14.73608273353103,
+      "differential_uniformity": 12,
+      "algebraic_degree": 3,
+      "vector": [
+        0.8,
+        0.75,
+        1.2606977810676985,
+        0.9210051708456893,
+        0.953125,
+        0.42857142857142855
+      ]
+    },
+    "power_d71": {
+      "accuracy": 0.4976,
+      "best_val_accuracy": 0.509,
+      "training_time": 32.3354914188385,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2606977810676985,
+      "spectral_entropy": 14.73608273353103,
+      "differential_uniformity": 10,
+      "algebraic_degree": 4,
+      "vector": [
+        0.8,
+        0.75,
+        1.2606977810676985,
+        0.9210051708456893,
+        0.9609375,
+        0.5714285714285714
+      ]
+    },
+    "power_d73": {
+      "accuracy": 0.4944,
+      "best_val_accuracy": 0.5072,
+      "training_time": 33.82674598693848,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.336254212923431,
+      "spectral_entropy": 14.806853436858855,
+      "differential_uniformity": 6,
+      "algebraic_degree": 3,
+      "vector": [
+        0.8,
+        0.75,
+        1.336254212923431,
+        0.9254283398036784,
+        0.9765625,
+        0.42857142857142855
+      ]
+    },
+    "power_d79": {
+      "accuracy": 0.5018,
+      "best_val_accuracy": 0.5122,
+      "training_time": 33.53659629821777,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2171526056391044,
+      "spectral_entropy": 14.869353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 5,
+      "vector": [
+        0.8,
+        0.75,
+        1.2171526056391044,
+        0.9293345898036784,
+        0.9375,
+        0.7142857142857143
+      ]
+    },
+    "power_d83": {
+      "accuracy": 0.4984,
+      "best_val_accuracy": 0.5062,
+      "training_time": 33.818413972854614,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.054081260072014,
+      "spectral_entropy": 14.994353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 4,
+      "vector": [
+        0.8,
+        0.75,
+        1.054081260072014,
+        0.9371470898036784,
+        0.9375,
+        0.5714285714285714
+      ]
+    },
+    "power_d89": {
+      "accuracy": 0.4962,
+      "best_val_accuracy": 0.5186,
+      "training_time": 32.95144486427307,
+      "nonlinearity": 80,
+      "max_walsh": 96,
+      "spectral_flatness": 1.1492932626448522,
+      "spectral_entropy": 14.040312030203207,
+      "differential_uniformity": 30,
+      "algebraic_degree": 4,
+      "vector": [
+        0.6666666666666666,
+        0.625,
+        1.1492932626448522,
+        0.8775195018877004,
+        0.8828125,
+        0.5714285714285714
+      ]
+    },
+    "power_d97": {
+      "accuracy": 0.5036,
+      "best_val_accuracy": 0.5056,
+      "training_time": 31.870660543441772,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2606977810676985,
+      "spectral_entropy": 14.73608273353103,
+      "differential_uniformity": 10,
+      "algebraic_degree": 3,
+      "vector": [
+        0.8,
+        0.75,
+        1.2606977810676985,
+        0.9210051708456893,
+        0.9609375,
+        0.42857142857142855
+      ]
+    },
+    "power_d101": {
+      "accuracy": 0.5206,
+      "best_val_accuracy": 0.5064,
+      "training_time": 31.971847534179688,
+      "nonlinearity": 80,
+      "max_walsh": 96,
+      "spectral_flatness": 1.1492932626448522,
+      "spectral_entropy": 14.040312030203207,
+      "differential_uniformity": 30,
+      "algebraic_degree": 4,
+      "vector": [
+        0.6666666666666666,
+        0.625,
+        1.1492932626448522,
+        0.8775195018877004,
+        0.8828125,
+        0.5714285714285714
+      ]
+    },
+    "power_d107": {
+      "accuracy": 0.5,
+      "best_val_accuracy": 0.4972,
+      "training_time": 35.285266399383545,
+      "nonlinearity": 112,
+      "max_walsh": 32,
+      "spectral_flatness": 1.4975339716144294,
+      "spectral_entropy": 14.744353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 5,
+      "vector": [
+        0.9333333333333333,
+        0.875,
+        1.4975339716144294,
+        0.9215220898036784,
+        0.9375,
+        0.7142857142857143
+      ]
+    },
+    "power_d109": {
+      "accuracy": 0.52,
+      "best_val_accuracy": 0.5058,
+      "training_time": 34.478920459747314,
+      "nonlinearity": 112,
+      "max_walsh": 32,
+      "spectral_flatness": 1.4975339716144294,
+      "spectral_entropy": 14.744353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 5,
+      "vector": [
+        0.9333333333333333,
+        0.875,
+        1.4975339716144294,
+        0.9215220898036784,
+        0.9375,
+        0.7142857142857143
+      ]
+    },
+    "power_d113": {
+      "accuracy": 0.4962,
+      "best_val_accuracy": 0.51,
+      "training_time": 34.36466646194458,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2171526056391044,
+      "spectral_entropy": 14.869353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 4,
+      "vector": [
+        0.8,
+        0.75,
+        1.2171526056391044,
+        0.9293345898036784,
+        0.9375,
+        0.5714285714285714
+      ]
+    },
+    "power_d127": {
+      "accuracy": 0.4948,
+      "best_val_accuracy": 0.5112,
+      "training_time": 35.17714500427246,
+      "nonlinearity": 112,
+      "max_walsh": 32,
+      "spectral_flatness": 0.5515803635435559,
+      "spectral_entropy": 15.254694737142152,
+      "differential_uniformity": 4,
+      "algebraic_degree": 7,
+      "vector": [
+        0.9333333333333333,
+        0.875,
+        0.5515803635435559,
+        0.9534184210713845,
+        0.984375,
+        1.0
+      ]
+    },
+    "power_d131": {
+      "accuracy": 0.5006,
+      "best_val_accuracy": 0.5134,
+      "training_time": 34.27563190460205,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.3362542129234296,
+      "spectral_entropy": 14.806853436858855,
+      "differential_uniformity": 6,
+      "algebraic_degree": 3,
+      "vector": [
+        0.8,
+        0.75,
+        1.3362542129234296,
+        0.9254283398036784,
+        0.9765625,
+        0.42857142857142855
+      ]
+    },
+    "power_d137": {
+      "accuracy": 0.499,
+      "best_val_accuracy": 0.5086,
+      "training_time": 35.75471544265747,
+      "nonlinearity": 104,
+      "max_walsh": 48,
+      "spectral_flatness": 1.181435068916874,
+      "spectral_entropy": 14.852812030203204,
+      "differential_uniformity": 16,
+      "algebraic_degree": 3,
+      "vector": [
+        0.8666666666666667,
+        0.8125,
+        1.181435068916874,
+        0.9283007518877002,
+        0.9375,
+        0.42857142857142855
+      ]
+    },
+    "power_d149": {
+      "accuracy": 0.4982,
+      "best_val_accuracy": 0.514,
+      "training_time": 34.480384826660156,
+      "nonlinearity": 80,
+      "max_walsh": 96,
+      "spectral_flatness": 1.1492932626448522,
+      "spectral_entropy": 14.040312030203207,
+      "differential_uniformity": 30,
+      "algebraic_degree": 4,
+      "vector": [
+        0.6666666666666666,
+        0.625,
+        1.1492932626448522,
+        0.8775195018877004,
+        0.8828125,
+        0.5714285714285714
+      ]
+    },
+    "power_d157": {
+      "accuracy": 0.5022,
+      "best_val_accuracy": 0.5016,
+      "training_time": 36.59402561187744,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2606977810676985,
+      "spectral_entropy": 14.736082733531031,
+      "differential_uniformity": 12,
+      "algebraic_degree": 5,
+      "vector": [
+        0.8,
+        0.75,
+        1.2606977810676985,
+        0.9210051708456894,
+        0.953125,
+        0.7142857142857143
+      ]
+    },
+    "power_d163": {
+      "accuracy": 0.4998,
+      "best_val_accuracy": 0.516,
+      "training_time": 33.16842079162598,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2606977810676985,
+      "spectral_entropy": 14.736082733531031,
+      "differential_uniformity": 10,
+      "algebraic_degree": 4,
+      "vector": [
+        0.8,
+        0.75,
+        1.2606977810676985,
+        0.9210051708456894,
+        0.9609375,
+        0.5714285714285714
+      ]
+    },
+    "power_d167": {
+      "accuracy": 0.4994,
+      "best_val_accuracy": 0.5082,
+      "training_time": 33.464409828186035,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2171526056391044,
+      "spectral_entropy": 14.869353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 5,
+      "vector": [
+        0.8,
+        0.75,
+        1.2171526056391044,
+        0.9293345898036784,
+        0.9375,
+        0.7142857142857143
+      ]
+    },
+    "power_d173": {
+      "accuracy": 0.5012,
+      "best_val_accuracy": 0.5142,
+      "training_time": 32.61469125747681,
+      "nonlinearity": 112,
+      "max_walsh": 32,
+      "spectral_flatness": 1.4975339716144294,
+      "spectral_entropy": 14.744353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 5,
+      "vector": [
+        0.9333333333333333,
+        0.875,
+        1.4975339716144294,
+        0.9215220898036784,
+        0.9375,
+        0.7142857142857143
+      ]
+    },
+    "power_d179": {
+      "accuracy": 0.4982,
+      "best_val_accuracy": 0.4982,
+      "training_time": 32.89779233932495,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2606977810676985,
+      "spectral_entropy": 14.736082733531031,
+      "differential_uniformity": 12,
+      "algebraic_degree": 5,
+      "vector": [
+        0.8,
+        0.75,
+        1.2606977810676985,
+        0.9210051708456894,
+        0.953125,
+        0.7142857142857143
+      ]
+    },
+    "power_d191": {
+      "accuracy": 0.5046,
+      "best_val_accuracy": 0.5106,
+      "training_time": 33.71718692779541,
+      "nonlinearity": 112,
+      "max_walsh": 32,
+      "spectral_flatness": 0.5515803635435559,
+      "spectral_entropy": 15.25469473714215,
+      "differential_uniformity": 4,
+      "algebraic_degree": 7,
+      "vector": [
+        0.9333333333333333,
+        0.875,
+        0.5515803635435559,
+        0.9534184210713844,
+        0.984375,
+        1.0
+      ]
+    },
+    "power_d193": {
+      "accuracy": 0.4926,
+      "best_val_accuracy": 0.5042,
+      "training_time": 32.271756410598755,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.336254212923431,
+      "spectral_entropy": 14.806853436858855,
+      "differential_uniformity": 6,
+      "algebraic_degree": 3,
+      "vector": [
+        0.8,
+        0.75,
+        1.336254212923431,
+        0.9254283398036784,
+        0.9765625,
+        0.42857142857142855
+      ]
+    },
+    "power_d197": {
+      "accuracy": 0.5092,
+      "best_val_accuracy": 0.5014,
+      "training_time": 32.79946684837341,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2171526056391044,
+      "spectral_entropy": 14.869353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 4,
+      "vector": [
+        0.8,
+        0.75,
+        1.2171526056391044,
+        0.9293345898036784,
+        0.9375,
+        0.5714285714285714
+      ]
+    },
+    "power_d199": {
+      "accuracy": 0.4896,
+      "best_val_accuracy": 0.507,
+      "training_time": 34.60863161087036,
+      "nonlinearity": 112,
+      "max_walsh": 32,
+      "spectral_flatness": 1.4975339716144294,
+      "spectral_entropy": 14.744353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 5,
+      "vector": [
+        0.9333333333333333,
+        0.875,
+        1.4975339716144294,
+        0.9215220898036784,
+        0.9375,
+        0.7142857142857143
+      ]
+    },
+    "power_d211": {
+      "accuracy": 0.487,
+      "best_val_accuracy": 0.5092,
+      "training_time": 33.32240152359009,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2171526056391044,
+      "spectral_entropy": 14.869353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 5,
+      "vector": [
+        0.8,
+        0.75,
+        1.2171526056391044,
+        0.9293345898036784,
+        0.9375,
+        0.7142857142857143
+      ]
+    },
+    "power_d223": {
+      "accuracy": 0.5032,
+      "best_val_accuracy": 0.508,
+      "training_time": 39.001495361328125,
+      "nonlinearity": 112,
+      "max_walsh": 32,
+      "spectral_flatness": 0.5515803635435559,
+      "spectral_entropy": 15.254694737142152,
+      "differential_uniformity": 4,
+      "algebraic_degree": 7,
+      "vector": [
+        0.9333333333333333,
+        0.875,
+        0.5515803635435559,
+        0.9534184210713845,
+        0.984375,
+        1.0
+      ]
+    },
+    "power_d227": {
+      "accuracy": 0.4842,
+      "best_val_accuracy": 0.5128,
+      "training_time": 34.12916445732117,
+      "nonlinearity": 112,
+      "max_walsh": 32,
+      "spectral_flatness": 1.4975339716144294,
+      "spectral_entropy": 14.744353436858857,
+      "differential_uniformity": 16,
+      "algebraic_degree": 5,
+      "vector": [
+        0.9333333333333333,
+        0.875,
+        1.4975339716144294,
+        0.9215220898036786,
+        0.9375,
+        0.7142857142857143
+      ]
+    },
+    "power_d229": {
+      "accuracy": 0.5026,
+      "best_val_accuracy": 0.5112,
+      "training_time": 35.09430122375488,
+      "nonlinearity": 104,
+      "max_walsh": 48,
+      "spectral_flatness": 1.181435068916874,
+      "spectral_entropy": 14.852812030203204,
+      "differential_uniformity": 16,
+      "algebraic_degree": 5,
+      "vector": [
+        0.8666666666666667,
+        0.8125,
+        1.181435068916874,
+        0.9283007518877002,
+        0.9375,
+        0.7142857142857143
+      ]
+    },
+    "power_d233": {
+      "accuracy": 0.5122,
+      "best_val_accuracy": 0.5072,
+      "training_time": 34.90714168548584,
+      "nonlinearity": 96,
+      "max_walsh": 64,
+      "spectral_flatness": 1.2171526056391044,
+      "spectral_entropy": 14.869353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 5,
+      "vector": [
+        0.8,
+        0.75,
+        1.2171526056391044,
+        0.9293345898036784,
+        0.9375,
+        0.7142857142857143
+      ]
+    },
+    "power_d239": {
+      "accuracy": 0.5024,
+      "best_val_accuracy": 0.5074,
+      "training_time": 33.96534729003906,
+      "nonlinearity": 112,
+      "max_walsh": 32,
+      "spectral_flatness": 0.5515803635435559,
+      "spectral_entropy": 15.254694737142152,
+      "differential_uniformity": 4,
+      "algebraic_degree": 7,
+      "vector": [
+        0.9333333333333333,
+        0.875,
+        0.5515803635435559,
+        0.9534184210713845,
+        0.984375,
+        1.0
+      ]
+    },
+    "power_d241": {
+      "accuracy": 0.4994,
+      "best_val_accuracy": 0.5112,
+      "training_time": 33.616265296936035,
+      "nonlinearity": 112,
+      "max_walsh": 32,
+      "spectral_flatness": 1.497533971614428,
+      "spectral_entropy": 14.744353436858855,
+      "differential_uniformity": 16,
+      "algebraic_degree": 5,
+      "vector": [
+        0.9333333333333333,
+        0.875,
+        1.497533971614428,
+        0.9215220898036784,
+        0.9375,
+        0.7142857142857143
+      ]
+    },
+    "power_d251": {
+      "accuracy": 0.4988,
+      "best_val_accuracy": 0.5128,
+      "training_time": 32.21077036857605,
+      "nonlinearity": 112,
+      "max_walsh": 32,
+      "spectral_flatness": 0.5515803635435559,
+      "spectral_entropy": 15.254694737142152,
+      "differential_uniformity": 4,
+      "algebraic_degree": 7,
+      "vector": [
+        0.9333333333333333,
+        0.875,
+        0.5515803635435559,
+        0.9534184210713845,
+        0.984375,
+        1.0
+      ]
+    },
+    "power_d253": {
+      "accuracy": 0.5004,
+      "best_val_accuracy": 0.5122,
+      "training_time": 33.887524127960205,
+      "nonlinearity": 112,
+      "max_walsh": 32,
+      "spectral_flatness": 0.5515803635435559,
+      "spectral_entropy": 15.254694737142152,
+      "differential_uniformity": 4,
+      "algebraic_degree": 7,
+      "vector": [
+        0.9333333333333333,
+        0.875,
+        0.5515803635435559,
+        0.9534184210713845,
+        0.984375,
+        1.0
+      ]
+    },
+    "power_d254": {
+      "accuracy": 0.4998,
+      "best_val_accuracy": 0.5094,
+      "training_time": 32.30489945411682,
+      "nonlinearity": 112,
+      "max_walsh": 32,
+      "spectral_flatness": 0.5515803635435559,
+      "spectral_entropy": 15.254694737142152,
+      "differential_uniformity": 4,
+      "algebraic_degree": 7,
+      "vector": [
+        0.9333333333333333,
+        0.875,
+        0.5515803635435559,
+        0.9534184210713845,
+        0.984375,
+        1.0
+      ]
+    },
+    "random_s1": {
+      "accuracy": 0.5088,
+      "best_val_accuracy": 0.5144,
+      "training_time": 34.749589920043945,
+      "nonlinearity": 88,
+      "max_walsh": 80,
+      "spectral_flatness": 0.4965814965230808,
+      "spectral_entropy": 14.934642330596109,
+      "differential_uniformity": 12,
+      "algebraic_degree": 7,
+      "vector": [
+        0.7333333333333333,
+        0.6875,
+        0.4965814965230808,
+        0.9334151456622568,
+        0.953125,
+        1.0
+      ]
+    },
+    "random_s7": {
+      "accuracy": 0.4982,
+      "best_val_accuracy": 0.5064,
+      "training_time": 33.58138346672058,
+      "nonlinearity": 92,
+      "max_walsh": 72,
+      "spectral_flatness": 0.49619205699524904,
+      "spectral_entropy": 14.93594652551085,
+      "differential_uniformity": 10,
+      "algebraic_degree": 7,
+      "vector": [
+        0.7666666666666667,
+        0.71875,
+        0.49619205699524904,
+        0.9334966578444281,
+        0.9609375,
+        1.0
+      ]
+    },
+    "random_s13": {
+      "accuracy": 0.4952,
+      "best_val_accuracy": 0.5084,
+      "training_time": 34.19480895996094,
+      "nonlinearity": 94,
+      "max_walsh": 68,
+      "spectral_flatness": 0.4983969249817228,
+      "spectral_entropy": 14.937393768196962,
+      "differential_uniformity": 10,
+      "algebraic_degree": 7,
+      "vector": [
+        0.7833333333333333,
+        0.734375,
+        0.4983969249817228,
+        0.9335871105123101,
+        0.9609375,
+        1.0
+      ]
+    },
+    "random_s42": {
+      "accuracy": 0.5002,
+      "best_val_accuracy": 0.5072,
+      "training_time": 34.44157910346985,
+      "nonlinearity": 88,
+      "max_walsh": 80,
+      "spectral_flatness": 0.49855605494618155,
+      "spectral_entropy": 14.940484830383884,
+      "differential_uniformity": 12,
+      "algebraic_degree": 7,
+      "vector": [
+        0.7333333333333333,
+        0.6875,
+        0.49855605494618155,
+        0.9337803018989927,
+        0.953125,
+        1.0
+      ]
+    },
+    "random_s99": {
+      "accuracy": 0.5042,
+      "best_val_accuracy": 0.5088,
+      "training_time": 32.26060080528259,
+      "nonlinearity": 94,
+      "max_walsh": 68,
+      "spectral_flatness": 0.4989852316757109,
+      "spectral_entropy": 14.934463039770632,
+      "differential_uniformity": 12,
+      "algebraic_degree": 7,
+      "vector": [
+        0.7833333333333333,
+        0.734375,
+        0.4989852316757109,
+        0.9334039399856645,
+        0.953125,
+        1.0
+      ]
+    },
+    "random_s137": {
+      "accuracy": 0.501,
+      "best_val_accuracy": 0.5002,
+      "training_time": 35.23257350921631,
+      "nonlinearity": 90,
+      "max_walsh": 76,
+      "spectral_flatness": 0.49707023902205555,
+      "spectral_entropy": 14.93415903159257,
+      "differential_uniformity": 10,
+      "algebraic_degree": 7,
+      "vector": [
+        0.75,
+        0.703125,
+        0.49707023902205555,
+        0.9333849394745356,
+        0.9609375,
+        1.0
+      ]
+    },
+    "random_s256": {
+      "accuracy": 0.4972,
+      "best_val_accuracy": 0.5106,
+      "training_time": 32.195191383361816,
+      "nonlinearity": 92,
+      "max_walsh": 72,
+      "spectral_flatness": 0.500949938416257,
+      "spectral_entropy": 14.939872721007394,
+      "differential_uniformity": 12,
+      "algebraic_degree": 7,
+      "vector": [
+        0.7666666666666667,
+        0.71875,
+        0.500949938416257,
+        0.9337420450629621,
+        0.953125,
+        1.0
+      ]
+    },
+    "random_s500": {
+      "accuracy": 0.4942,
+      "best_val_accuracy": 0.509,
+      "training_time": 33.872984170913696,
+      "nonlinearity": 92,
+      "max_walsh": 72,
+      "spectral_flatness": 0.49728928049592536,
+      "spectral_entropy": 14.931254463997572,
+      "differential_uniformity": 12,
+      "algebraic_degree": 7,
+      "vector": [
+        0.7666666666666667,
+        0.71875,
+        0.49728928049592536,
+        0.9332034039998482,
+        0.953125,
+        1.0
+      ]
+    },
+    "random_s777": {
+      "accuracy": 0.5018,
+      "best_val_accuracy": 0.5156,
+      "training_time": 33.56847167015076,
+      "nonlinearity": 94,
+      "max_walsh": 68,
+      "spectral_flatness": 0.49768175011644955,
+      "spectral_entropy": 14.939766873673374,
+      "differential_uniformity": 12,
+      "algebraic_degree": 7,
+      "vector": [
+        0.7833333333333333,
+        0.734375,
+        0.49768175011644955,
+        0.9337354296045859,
+        0.953125,
+        1.0
+      ]
+    },
+    "random_s1000": {
+      "accuracy": 0.4992,
+      "best_val_accuracy": 0.5116,
+      "training_time": 35.5444393157959,
+      "nonlinearity": 94,
+      "max_walsh": 68,
+      "spectral_flatness": 0.4956734246969097,
+      "spectral_entropy": 14.931453647809729,
+      "differential_uniformity": 12,
+      "algebraic_degree": 7,
+      "vector": [
+        0.7833333333333333,
+        0.734375,
+        0.4956734246969097,
+        0.933215852988108,
+        0.953125,
+        1.0
+      ]
+    }
+  },
+  "regression": {
+    "nonlinearity": {
+      "r_squared": 0.6597445090071826,
+      "correlation": -0.8122465814068919,
+      "p_value": 3.36788015670727e-15,
+      "slope": -0.00335281147144797,
+      "intercept": 0.8342748479756943
+    },
+    "max_walsh": {
+      "r_squared": 0.6597445090071826,
+      "correlation": 0.8122465814068919,
+      "p_value": 3.36788015670727e-15,
+      "slope": 0.001676405735723985,
+      "intercept": 0.40511497963035414
+    },
+    "spectral_flatness": {
+      "r_squared": 0.989781044973595,
+      "correlation": 0.9948774019815683,
+      "p_value": 1.9647082967174434e-59,
+      "slope": 0.0019623517275384303,
+      "intercept": 0.49813651328984
+    },
+    "spectral_entropy": {
+      "r_squared": 0.9084147014443585,
+      "correlation": -0.9531079169980483,
+      "p_value": 8.539501009062497e-32,
+      "slope": -0.06676581052878454,
+      "intercept": 1.491419374710949
+    },
+    "differential_uniformity": {
+      "r_squared": 0.9546262355999158,
+      "correlation": 0.9770497610664033,
+      "p_value": 1.189689614083165e-40,
+      "slope": 0.0019718740784104875,
+      "intercept": 0.4754973070879311
+    },
+    "algebraic_degree": {
+      "r_squared": 0.10292282066713954,
+      "correlation": -0.3208158672309391,
+      "p_value": 0.012447431419294604,
+      "slope": -0.013111642599277972,
+      "intercept": 0.5731774368231046
+    },
+    "multivariate": {
+      "r_squared": 0.9900600588456481,
+      "r_squared_adjusted": 0.9889347824885516,
+      "coefficients": {
+        "nonlinearity": -0.00036998617034499776,
+        "max_walsh": 0.0003699861703450307,
+        "spectral_flatness": 0.061380280416561975,
+        "spectral_entropy": 0.0018196535711187266,
+        "differential_uniformity": 0.003945359204756171,
+        "algebraic_degree": 0.0009173341116007535
+      },
+      "intercept": 0.5084933333333335,
+      "n_samples": 60,
+      "n_features": 6
+    }
+  },
+  "r_squared_multivariate": 0.9900600588456481,
+  "r_squared_adjusted": 0.9889347824885516,
+  "n_configs": 60,
+  "total_time": 2028.015068769455
+}

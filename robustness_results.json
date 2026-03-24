@@ -1,0 +1,41 @@
+{
+  "config": {
+    "num_rounds": 8,
+    "input_diff_bit": 0,
+    "train_size": 30000,
+    "val_size": 5000,
+    "test_size": 5000,
+    "epochs": 15,
+    "batch_size": 512,
+    "device": "auto",
+    "seed": 42
+  },
+  "timestamp": "2026-03-21 12:25:07",
+  "architectures": {
+    "GohrDistinguisher": {
+      "type": "ResNet",
+      "parameters": 677249,
+      "training_time": 38.3728461265564,
+      "best_val_accuracy": 0.5106,
+      "test_accuracy": 0.496,
+      "true_positive_rate": 0.5,
+      "false_positive_rate": 0.508,
+      "mean_prob_real": 0.4995270371437073,
+      "mean_prob_random": 0.5059600472450256
+    },
+    "MLPDistinguisher": {
+      "type": "Feedforward MLP",
+      "parameters": 173441,
+      "training_time": 21.80791664123535,
+      "best_val_accuracy": 0.5054,
+      "test_accuracy": 0.51,
+      "true_positive_rate": 0.5668,
+      "false_positive_rate": 0.5468
+    }
+  },
+  "robustness_check": {
+    "accuracy_difference": 0.014000000000000012,
+    "consistent": true,
+    "interpretation": "CONSISTENT: Both architectures achieve similar accuracy. Security margin appears architecture-independent."
+  }
+}

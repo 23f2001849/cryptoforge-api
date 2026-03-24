@@ -1,0 +1,253 @@
+{
+  "history": {
+    "generations": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "best_fitness": [
+      0.9418648274739584,
+      0.9405690511067708,
+      0.9404646809895832,
+      0.9413503011067709,
+      0.9408125813802083,
+      0.9636909261067709,
+      0.974090926106771,
+      0.9793834798177083
+    ],
+    "avg_fitness": [
+      0.762317081124442,
+      0.9263024122256324,
+      0.8577516744559153,
+      0.7890416171409971,
+      0.9225622613234746,
+      0.9294498315429689,
+      0.7916153972516742,
+      0.8703183669317337
+    ],
+    "best_genomes": [
+      "sbox=random(seed=13) matrix=random rounds=8 perm=shiftrows_8x4",
+      "sbox=random(seed=856) matrix=random rounds=6 perm=shiftrows_8x4",
+      "sbox=random(seed=856) matrix=circulant rounds=10 perm=shiftrows_8x4",
+      "sbox=random(seed=13) matrix=random rounds=6 perm=shiftrows_8x4",
+      "sbox=random(seed=856) matrix=cauchy_mds rounds=8 perm=shiftrows_4x8",
+      "sbox=aes matrix=circulant rounds=8 perm=shiftrows_8x4",
+      "sbox=aes matrix=circulant rounds=8 perm=shiftrows_8x4",
+      "sbox=aes matrix=circulant rounds=8 perm=shiftrows_8x4"
+    ],
+    "best_nonlinearity": [
+      94,
+      94,
+      94,
+      94,
+      94,
+      112,
+      112,
+      112
+    ],
+    "best_neural_resistance": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.958,
+      0.984,
+      0.996
+    ],
+    "adversary_accuracies": [
+      1.0989999999999998,
+      1.0132,
+      1.0549,
+      1.0942,
+      1.0151,
+      1.0168000000000001,
+      1.0957999999999999,
+      1.0595
+    ]
+  },
+  "best_genome": {
+    "sbox_type": "aes",
+    "sbox_param": 5305,
+    "matrix_type": "circulant",
+    "matrix_seed": 5029,
+    "num_rounds": 8,
+    "permutation_type": "shiftrows_8x4",
+    "fitness": 0.9793834798177083,
+    "nonlinearity": 112,
+    "diff_uniformity": 4,
+    "algebraic_degree": 7,
+    "avalanche_quality": 0.9947509765624998,
+    "neural_resistance": 0.996
+  },
+  "best_config": {
+    "hash": {
+      "name": "MatriXHash-256",
+      "state_size": 32,
+      "block_size": 64,
+      "digest_size": 32
+    },
+    "round_function": {
+      "num_rounds": 8,
+      "matrix_type": "circulant",
+      "matrix_seed": 5029,
+      "sbox_type": "aes",
+      "sbox_param": 5305,
+      "permutation_type": "shiftrows_8x4"
+    },
+    "cauchy": {
+      "x_start": 1,
+      "y_start": 33
+    }
+  },
+  "final_population": [
+    {
+      "sbox_type": "aes",
+      "sbox_param": 5305,
+      "matrix_type": "circulant",
+      "matrix_seed": 5029,
+      "num_rounds": 8,
+      "permutation_type": "shiftrows_8x4",
+      "fitness": 0.9793834798177083,
+      "nonlinearity": 112,
+      "diff_uniformity": 4,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9947509765624998,
+      "neural_resistance": 0.996
+    },
+    {
+      "sbox_type": "aes",
+      "sbox_param": 5305,
+      "matrix_type": "circulant",
+      "matrix_seed": 4261,
+      "num_rounds": 8,
+      "permutation_type": "shiftrows_8x4",
+      "fitness": 0.9652909261067709,
+      "nonlinearity": 112,
+      "diff_uniformity": 4,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9914672851562503,
+      "neural_resistance": 0.962
+    },
+    {
+      "sbox_type": "aes",
+      "sbox_param": 5305,
+      "matrix_type": "circulant",
+      "matrix_seed": 4261,
+      "num_rounds": 6,
+      "permutation_type": "shiftrows_8x4",
+      "fitness": 0.9629991292317708,
+      "nonlinearity": 112,
+      "diff_uniformity": 4,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9975219726562498,
+      "neural_resistance": 0.954
+    },
+    {
+      "sbox_type": "aes",
+      "sbox_param": 5305,
+      "matrix_type": "circulant",
+      "matrix_seed": 4261,
+      "num_rounds": 8,
+      "permutation_type": "shiftrows_8x4",
+      "fitness": 0.9524909261067709,
+      "nonlinearity": 112,
+      "diff_uniformity": 4,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9914672851562503,
+      "neural_resistance": 0.9299999999999999
+    },
+    {
+      "sbox_type": "aes",
+      "sbox_param": 5305,
+      "matrix_type": "circulant",
+      "matrix_seed": 1828,
+      "num_rounds": 8,
+      "permutation_type": "shiftrows_8x4",
+      "fitness": 0.9412379964192709,
+      "nonlinearity": 112,
+      "diff_uniformity": 4,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9964477539062502,
+      "neural_resistance": 0.8999999999999999
+    },
+    {
+      "sbox_type": "random",
+      "sbox_param": 5305,
+      "matrix_type": "circulant",
+      "matrix_seed": 4261,
+      "num_rounds": 8,
+      "permutation_type": "shiftrows_4x8",
+      "fitness": 0.9410298665364584,
+      "nonlinearity": 94,
+      "diff_uniformity": 10,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9940185546874999,
+      "neural_resistance": 1.0
+    },
+    {
+      "sbox_type": "random",
+      "sbox_param": 856,
+      "matrix_type": "random",
+      "matrix_seed": 5016,
+      "num_rounds": 8,
+      "permutation_type": "shiftrows_4x8",
+      "fitness": 0.9408272298177084,
+      "nonlinearity": 94,
+      "diff_uniformity": 12,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9978759765625003,
+      "neural_resistance": 1.0
+    },
+    {
+      "sbox_type": "random",
+      "sbox_param": 856,
+      "matrix_type": "cauchy_mds",
+      "matrix_seed": 8434,
+      "num_rounds": 8,
+      "permutation_type": "shiftrows_4x8",
+      "fitness": 0.9320125813802083,
+      "nonlinearity": 94,
+      "diff_uniformity": 12,
+      "algebraic_degree": 7,
+      "avalanche_quality": 0.9977783203124998,
+      "neural_resistance": 0.978
+    },
+    {
+      "sbox_type": "power_map",
+      "sbox_param": 224,
+      "matrix_type": "circulant",
+      "matrix_seed": 4261,
+      "num_rounds": 8,
+      "permutation_type": "shiftrows_8x4",
+      "fitness": 0.8749892961774554,
+      "nonlinearity": 96,
+      "diff_uniformity": 6,
+      "algebraic_degree": 3,
+      "avalanche_quality": 0.9978393554687495,
+      "neural_resistance": 0.962
+    },
+    {
+      "sbox_type": "identity",
+      "sbox_param": 856,
+      "matrix_type": "cauchy_mds",
+      "matrix_seed": 8434,
+      "num_rounds": 8,
+      "permutation_type": "shiftrows_4x8",
+      "fitness": 0.21292223772321425,
+      "nonlinearity": 0,
+      "diff_uniformity": 256,
+      "algebraic_degree": 1,
+      "avalanche_quality": 0.98291015625,
+      "neural_resistance": 0.1279999999999999
+    }
+  ],
+  "total_time": 4882.405235290527,
+  "method": "adversarial_coevolution_v3",
+  "neural_in_loop": true
+}

@@ -1,0 +1,19 @@
+{
+  "test_name": "Bit Independence Criterion (Bonferroni corrected)",
+  "pass_corrected": true,
+  "pass_uncorrected": false,
+  "global_max_correlation": 0.15826642838757793,
+  "global_mean_correlation": 0.0252827836917435,
+  "corrected_threshold": 0.18145483118604724,
+  "uncorrected_threshold": 0.05,
+  "total_comparisons": 1044480,
+  "total_pairs_tested": 1044480,
+  "violations_corrected": 0,
+  "violations_uncorrected": 119667,
+  "bonferroni_alpha_per_test": 9.574142156862745e-09,
+  "z_critical": 5.738105589892617,
+  "num_input_bits": 32,
+  "num_samples": 1000,
+  "significance_level": 0.01,
+  "total_time": 923.5012094974518
+}

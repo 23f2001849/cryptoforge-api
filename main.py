@@ -35,6 +35,8 @@ from typing import Optional
 from fastapi import FastAPI, UploadFile, File, Form, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
+# from matrixhash_c import MatriXHash256C
+
 # ─────────────────────────────────────────────────────────────
 # PATH SETUP
 # main.py lives at CryptoForge/webapp/backend/main.py
@@ -99,6 +101,15 @@ try:
     print("[CryptoForge API] ✓ spectral modules imported")
 except ImportError as e:
     print(f"[CryptoForge API] ✗ spectral import failed: {e}")
+
+# Try fast C implementation
+C_HASH_OK = False
+try:
+    from matrixhash_c import MatriXHash256C
+    C_HASH_OK = True
+    print("[CryptoForge API] ✓ C MatriXHash-256 loaded (fast mode)")
+except (ImportError, FileNotFoundError, OSError) as e:
+    print(f"[CryptoForge API] C library not available: {e}")
 
 
 # ─────────────────────────────────────────────────────────────
@@ -210,14 +221,20 @@ async def hash_endpoint(
     # MatriXHash-256 (YOUR Python implementation — slow but real)
     mh_hex = None
     mh_time_ms = None
-    if HASH_OK:
+    if C_HASH_OK:
         try:
             t0 = time.perf_counter()
-            hasher = MatriXHash256()       # default config: AES S-box, Cauchy MDS, 8 rounds
-            mh_hex = hasher.hexdigest(data) # calls .hash(data).hex() internally
+            mh_hex = MatriXHash256C().hexdigest(data)
             mh_time_ms = round((time.perf_counter() - t0) * 1000, 2)
         except Exception as e:
-            print(f"[hash] Error: {e}")
+            print(f"[hash] C error: {e}")
+    if mh_hex is None and HASH_OK:
+        try:
+            t0 = time.perf_counter()
+            mh_hex = MatriXHash256().hexdigest(data)
+            mh_time_ms = round((time.perf_counter() - t0) * 1000, 2)
+        except Exception as e:
+            print(f"[hash] Python error: {e}")
 
     return {
         "matrixhash256": mh_hex,
@@ -248,12 +265,15 @@ async def verify_endpoint(
     sha2 = hashlib.sha256(data2).hexdigest()
 
     mh1 = mh2 = None
-    if HASH_OK:
-        try:
+    try:
+        if C_HASH_OK:
+            mh1 = MatriXHash256C().hexdigest(data1)
+            mh2 = MatriXHash256C().hexdigest(data2)
+        elif HASH_OK:
             mh1 = MatriXHash256().hexdigest(data1)
             mh2 = MatriXHash256().hexdigest(data2)
-        except Exception as e:
-            print(f"[verify] Error: {e}")
+    except Exception as e:
+        print(f"[verify] Error: {e}")
 
     return {
         "match_matrixhash": mh1 == mh2 if (mh1 and mh2) else None,
